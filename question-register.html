@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super User - Cadastro de Pergunta</title>
+    <link href="../Quest/css/su.css" rel="stylesheet">
+</head>
+<body>
+    <div class="topnav_su">
+            <a href="../Quest/theme-register.html">TEMAS</a>
+            <a class="active" href="../Quest/question-register.html">PERGUNTAS</a>
+    </div>
+    <div class="topnav_su">
+        <a class="active" href="../Quest/question-register.html">CADASTRO</a>
+        <a href="../Quest/question-edit.html">EDIÇÃO</a>
+    </div>
+    <div>
+        <form class="form_cadastro">
+            <span class="su_title">Cadastro de Pergunta</span>
+            <div class="custom-select" style="text-align: center; width: 100%;">
+                <select name="tema" id="tema" style="margin-top: 50px;">
+                    <option value="" disabled selected>Selecione o tema</option>
+                    <option value="Tema1">Tema 1</option>
+                    <option value="Tema2">Tema 2</option>
+                </select>
+            </div>
+            <div style="text-align: center;">
+                <input class="input_pergunta" type="text" name="tema" placeholder="Digite a pergunta" autocomplete="off">
+            </div>
+            <div style="text-align: center;">
+                <input class="input_alternativa" type="text" name="tema" placeholder="Alternativa A" autocomplete="off">
+            </div>
+            <div style="text-align: center;">
+                <input class="input_alternativa" type="text" name="tema" placeholder="Alternativa B" autocomplete="off">
+            </div>
+            <div style="text-align: center;">
+                <input class="input_alternativa" type="text" name="tema" placeholder="Alternativa C" autocomplete="off">
+            </div>
+            <div style="text-align: center;">
+                <input class="input_alternativa" type="text" name="tema" placeholder="Alternativa D" autocomplete="off">
+            </div>
+            <div class="resposta" style="text-align: center; margin-top: 20px;">
+                Resposta correta:
+                <input type="radio" name="alt_correta"/> A
+                <input type="radio" name="alt_correta"/> B
+                <input type="radio" name="alt_correta"/> C
+                <input type="radio" name="alt_correta"/> D
+            </div>
+            <div style="text-align: center; margin-top: 20px">
+                <button type="submit">CADASTRAR</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
